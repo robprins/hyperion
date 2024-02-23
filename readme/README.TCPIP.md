@@ -23,10 +23,10 @@ As opposed to "classic" instructions, the TCPIP (X'75') instruction preserves a 
 To avoid having application programmers go through this complexity, at the time of this writing two higher-level interfaces are available, allowing easy and standardized access to the functionality provided by the TCPIP instruction:
 
 
-- A socket API in Jason's JCC-Library, which provides the well-known C socket programming functions.  See the JCC-Library help in the JCC distribution (found in `TK4-.JASON.JCC.ZIP` on TK4- systems) for a description of the functions available.
+- A socket API in Jason's JCC-Library, which provides the well-known C socket programming functions.  See the JCC-Library help in the JCC distribution (found in `TK4-.JASON.JCC.ZIP` on TK4- systems or 'TK5.JASON.JCC.ZIP on TK5 systems) for a description of the functions available.
 
 
-- TCP/IP for MVS 3.8 Assembler by Shelby Beach, a programming interface that is source code compatible to IBM's well-known EZASMI API.  Comprehensive documentation of all available functions is part of the installer found at `TK4-.SHELBY.EZASMI.V100.ZIP` on TK4- systems.
+- TCP/IP for MVS 3.8 Assembler by Shelby Beach, a programming interface that is source code compatible to IBM's well-known EZASMI API.  Comprehensive documentation of all available functions is part of the installer found at `TK5.SHELBY.EZASMI.V100.ZIP` on TK5 systems.
 
 
 ## CAUTION
